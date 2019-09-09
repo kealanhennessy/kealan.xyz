@@ -82,7 +82,7 @@ body {
     color:rgb(255, 255, 255);
     font-size:70px;
 }
-#about {
+#projects {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -92,7 +92,7 @@ body {
     color:#fff;
     position:fixed;
     left:0;
-    bottom:40vh;
+    bottom:25vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -100,7 +100,7 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#work {
+#research {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -140,12 +140,12 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(180deg);
+    transform:rotate(90deg);
     background:transparent;
     color:#fff;
     position:fixed;
-    top:0;
-    left:45vw;
+    left:0;
+    bottom:55vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -153,11 +153,11 @@ body {
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
 }
-#about:hover {
+#projects:hover {
     background:rgba(0, 79, 33);
     cursor:pointer;
 }
-#work:hover {
+#research:hover {
     background:rgba(0, 79, 33);
     cursor:pointer;
 }
@@ -342,7 +342,7 @@ body {
 }
 
 @media (max-width: 800px){ 
-    #about {
+    #projects {
         display:none;
     }
     #contact {
@@ -351,7 +351,7 @@ body {
     #skills {
         display:none;
     }
-    #work {
+    #research {
         display:none;
     }
     #footer {
