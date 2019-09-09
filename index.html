@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname.</title>
+    <title>Kealan John Hennessy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -24,77 +24,92 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">experience</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">research</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="skills" onclick="showskills()" class="animated fadeIn" style="animation-delay:2.2s;">skills</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>Kealan John Hennessy</h1>
-        <h2>Student, Athlete, Engineer</h2>
+        <h1>Hi, I'm Kealan.</h1>
+        <h2>I'm a Physics student at the University of California, Berkeley with a love of all things space.</h2>
+        <h2>Here you can find out about my past and current research, <br/>
+            as well as additional skills and experience.</h2>
         <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
+            <a onclick="showabout()">research</a>
+            <a onclick="showwork()">experience</a>
             <a onclick="showcontact()">contact</a>
+            <a onclick="showskills()">sllᴉʞs</a>
         </div>
         <table>
                 <tr>
                     <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-linkedin-in"></i></a></td>
                 </tr>
         </table>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>work</h1>
+        <h1>research</h1>
         <section>
-            <h2>Title</h2>
+            <h2>Computational Fluid Dynamics Laboratory</h2>
             <p>
                 Under construction.
             </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
-            </div>
+            <h2>Berkeley SETI Research Center (BSRC)</h2>
+            <p>
+                Under construction.
+            </p>
             <button class="btn_one">button 1</button>
             <button class="btn_two">button 2</button>
         </section>
     </div>
     <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>about</h1>
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>experience</h1>
+        <section>
+            <h2>project</h2>
+            <p>
+                Under construction. 
+            </p>
+        </section>
+        <section>
+            <h2>team</h2>
+            <p>
+                Under construction.
+            </p>
+        </section>
+        <section>
+            <h2>teaching</h2>
+            <p>
+                Under construction.
+            </p>
+        </section>     
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>contact</h1>
+        <section>
+            <h2>shoot me a message, and I will get back to you as soon as I can!</h2>
+            <p>
+                <form>
+                    <input type="text" placeholder="name" required>
+                    <input type="email" placeholder="email" required><br>
+                    <textarea placeholder="your message" required rows="5"></textarea><br>
+                    <button class="btn_one">send</button>
+                </form> 
+            </p>
+        </section>
+    </div>
+    <div id="skills_container" class="container">
+        <div onclick="closeskills()"><i class="fas fa-angle-up"></i></div>
+            <h1>skills</h1>
             <section>
-                <h2>about me</h2>
-                <p>
-                    Under construction.
-                </p>
+                <h2>Here's what I can do.</h2>
                 <p>
                     Under construction.
                 </p>
             </section>
-            <section>
-                <h2>skills</h2>
-                <p>
-                    Under construction.
-                </p>
-            </section>
-        </div>
-          <div id="contact_container" class="container">
-            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>contact.</h1>
-            <section>
-                <h2>contact me</h2>
-                <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
-                    </form> 
-                </p>
-            </section>
-        </div>
+    </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>

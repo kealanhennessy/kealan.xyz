@@ -40,6 +40,21 @@ function closecontact(){
         $("#contact_container").css("display","none");
     },800);
 }
+function showskills(){
+    $("#skills_container").css("display","inherit");
+    $("#skills_container").addClass("animated slideInDown");
+    setTimeout(function(){
+        $("#skills_container").removeClass("animated slideInDown");
+    },800);
+}
+function closeskills(){
+    $("#skills_container").addClass("animated slideOutUp");
+    setTimeout(function(){
+        $("#skills_container").removeClass("animated slideOutUp");
+        $("#skills_container").css("display","none");
+    },800);
+}
+
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
@@ -48,6 +63,7 @@ setTimeout(function(){
       $("#box").css("display","none");
       $("#about").removeClass("animated fadeIn");
       $("#contact").removeClass("animated fadeIn");
+      $("#skills").removeClass("animated fadeIn");
       $("#work").removeClass("animated fadeIn");
     },1000);
 },1500);
