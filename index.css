@@ -232,7 +232,94 @@ body {
 .container p {
     font-size:21px;
 }
-.btn_one {
+#skill-img{
+    width: 100px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#skill-img:hover{
+    width: 120px;
+}
+.python{
+    left: 10vw;
+    bottom: 20vh;
+}
+.matlab{
+    left: 20vw;
+    bottom: 20vh;
+}
+.java.png{
+    left: 30vw;
+    bottom: 20vh;
+    max-width: 70%;
+    max-height: 70%;
+}
+.jupyter{
+    left: 40vw;
+    bottom: 20vh;
+}
+.linux{
+    left: 50vw;
+    bottom: 20vh;
+}
+.fusion360{
+    left: 10vw;
+    bottom: 30vh;
+}
+.solidworks{
+    left: 20vw;
+    bottom: 30vh;
+    max-width: 250%;
+    max-height: 250%;
+}
+.gmsh{
+    left: 30vw;
+    bottom: 30vh;
+}
+.openfoam{
+    left: 40vw;
+    bottom: 30vh;
+    max-width: 250%;
+    max-height: 250%;
+}
+.html_css_js{
+    left: 50vw;
+    bottom: 30vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.BMechE{
+    top: 10px;
+    left: 10px;
+    max-width: 500%;
+    max-height: 500%;
+}
+.seti{
+    top: 10px;
+    left: 10px;
+    max-width: 500%;
+    max-height: 500%;
+}
+.ocf{
+    top: 10px;
+    left: 10px;
+}
+.pac12{
+    top: 10px;
+    left: 10px;
+}
+.ira{
+    top: 10px;
+    left: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 500%;
+    max-height: 500%;
+}
+input[type=submit] {
     font-size:18px;
     font-family: 'Ubuntu', sans-serif;
     color:#fff;
@@ -244,7 +331,7 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_one:hover {
+input[type=submit]:hover {
     cursor:pointer;
     color:rgb(0, 79, 33);
     background:#fff;
